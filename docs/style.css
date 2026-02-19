@@ -56,6 +56,19 @@ img {
   margin: 0;
 }
 
+nav {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  margin-top: 2.5px;
+  width: 290px;
+  height: auto;
+}
 
 .hero {
   position: relative;
@@ -84,6 +97,22 @@ img {
   object-fit: cover;
 }
 
+.btn {
+  display: inline-block;
+  padding: 16px 32px;
+  background-color: var(--color-primary);
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  width: auto;
+  margin-top: 250px;
+  justify-self: center;
+}
+
+.btn:hover {
+  text-decoration: underline;
+}
 
 .container {
   width: min(100vw - 3rem, var(--container-width));
@@ -95,7 +124,7 @@ img {
 }
 
 .site-foot {
-  color: var(--color-light);
+  color: var(--color-dark);
   background-color: var(--color-primary);
 }
 
